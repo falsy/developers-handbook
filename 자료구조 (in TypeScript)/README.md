@@ -1,4 +1,4 @@
-# Data Structure
+# Data Structure in TypeScript
 
 ## 목차
 
