@@ -6,7 +6,11 @@
 
 글에 잘못된 부분이 있다면 이슈나 풀 리퀘스트 부탁드립니다. 🙇‍♂️
 
-## 목차
+## Reference
+
+이 문서는 [신찬수 교수님](https://www.youtube.com/@ChanSuShin)의 유튜브 강의와 추가로 공부한 내용을 함께 정리한 것입니다.
+
+## List
 
 - [배열(Array)](#배열array)
 - [연결 리스트(Linked List)](#연결-리스트linked-list)
@@ -22,6 +26,7 @@
   - [이진 탐색 트리(Binary Search Tree)](#이진-탐색-트리binary-search-tree)
   - [균형 이진 탐색 트리(Balaced Binary Search Tree)](#균형-이진-탐색-트리balanced-binary-search-tree)
   - [AVL 트리(Adelson Velsky and Landis Tree)](#avl-트리adelson-velsky-and-landis-tree)
+- [유니온 파인드(Union-Find)](#유니온-파인드union-find)
 - [그래프(Graph)](#그래프graph)
 
 ## 배열(Array)
@@ -72,7 +77,7 @@ class ExArray<T> {
 
 일반적으로 내장되어 있는 배열 객체를 사용하지만, 위와 같이 몇가지 배열의 동작을 정의하여 사용자 정의 배열을 구현할 수도 있습니다.
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 연결 리스트(Linked list)
 
@@ -87,7 +92,7 @@ class ExArray<T> {
 > `*`  
 > 간단하게 배열과 연결 리스트의 특징을 이야기하기 위한 내용으로, 이후 이야기할 `단방향 연결 리스트`의 경우에는 특정 노드에서 이전의 노드를 알 수 없기 때문에, 이전 노드를 알기 위해서 `헤드 노드`에서 부터 탐색해야 하기 때문에 배열과 같은 $O(n)$의 시간이 소요됩니다. 그리고 `양방향 연결 리스트`의 경우에는 이전 노드의 정보도 함께 가지고 있기 때문에 $O(1)$의 시간으로 리스트 중간의 값을 추가하거나 제거할 수 있습니다.
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 단방향 연결 리스트(Singly linked list)
 
@@ -207,7 +212,7 @@ for (let node of linkedList) {
 // "A", "C"
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 양방향 연결 리스트(Doubly linked list)
 
@@ -299,7 +304,7 @@ console.log(doublyLinkedList.search("B"))
 // ExNode
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 원형 양방향 연결 리스트(Circular doubly linked list)
 
@@ -413,7 +418,7 @@ doublyLinkedList.print()
 // Head <-> A <-> B <-> C
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 스택(Stack)
 
@@ -464,7 +469,7 @@ console.log(stack)
 // ExStack { items: [A, B] }
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 큐(Queue)
 
@@ -518,7 +523,7 @@ dequeue를 정의 할때 배열의 `shift` 메서드를 사용한 방법을 생�
 
 연결 리스트를 사용하여 구현한다면, 연결 리스트에 `head`와 `tail` 속성을 정의해서 `tail` 노드 다음으로 노드를 `enqueue`하고 `dequeue`는 `head`의 노드를 제거하며 가져오도록 구현할 수 있습니다.
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 해시 테이블(Hash Table)
 
@@ -678,14 +683,14 @@ hashTable.print()
 
 해시 테이블에 대해 간략히 알아보았지만, 타입스크립트에서는 ES6에서 `Map` 객체가 도입되어 `Map` 객체를 활용하여 간편하게 해시 테이블의 자료구조를 사용할 수 있습니다
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 트리(Tree)
 
 간단하게는 연결 리스트를 세로로 세운 모습을 생각할 수 있으며, 최초 시작 노드를 `root 노드(또는 head 노드)`라고 하며, 가장 마지막의 자식이 없는 요소를 `leaf 노드`라고 합니다.  
 트리 구조는 우리 주위에서 흔히 많이 사용되지만, 컴퓨터 공학에서는 그 중에서도 이진 트리(Binary tree)를 많이 사용됩니다.
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 이진 트리(binary tree)
 
@@ -767,7 +772,7 @@ B, D, A, E, C, F
 D, B, E, F, C, A
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 힙(Heap)
 
@@ -894,7 +899,7 @@ minHeap.printHeap()
 // [5, 10, 7]
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 이진 탐색 트리(Binary Search Tree)
 
@@ -1118,7 +1123,7 @@ bst.preorderTraversal(bst.root, (value) => console.log(value))
 // 12 5 3 7 15 18
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## 균형 이진 탐색 트리(Balanced Binary Search Tree)
 
@@ -1159,7 +1164,7 @@ bst.preorderTraversal(bst.root, (value) => console.log(value))
 
 `왼쪽 회전`은 위와 같은 로직에 방향만 반대로 동작합니다.
 
-[⬆목차](#목차)
+[⬆목차](#list)
 
 ## AVL 트리(Adelson-Velsky and Landis Tree)
 
@@ -1568,7 +1573,114 @@ avl.preorderTraversal(avl.root, (value) => console.log(value))
 // 20 10 50 25
 ```
 
-[⬆목차](#목차)
+[⬆목차](#list)
+
+## 유니온 파인드(Union-Find)
+
+Disjoin-set(서로소 집합)이라고도 부르는 자료 구로로 이름 그대로 Union - 서로 다른 두 개의 집합을 하나의 집합으로 합치거나, Find - 해당 노드가 어떤 집합에 속해있는지 확인할 수 있는 자료구조입니다.
+
+#### Note.
+
+> 내부적으로 배열이나 연결 리스트 또는 트리 등 다양하게 구현할 수 있지만 이 문서에서는 트리를 사용하여 구현합니다.
+
+간략하게 아래와 같이 두 개의 집합(트리) A, B가 있다고 가정했을 때,  
+(여기서 아래의 트리의 각각의 노드들은 부모의 노드를 알고 있고, 루트의 노드가 해당 트리의 대표 노드라고 가정합니다.)
+
+```
+             A                       B
+            (5)                      6
+        ┌────┴────┐             ┌────┼────┐
+       (8)        7             9    1    3
+    ┌───┴───┐
+    2      (4)
+```
+
+Find에 대해 알아보면, `4` 를 Find 했을 때 `4`의 부모인 `8` 그리고 `8`의 부모인 `5` 그리고 `5` 노드는 부모 노드가 없으므로 대표 노드임으로 `5`를 응답해 줍니다.
+
+다음으로 `A`와 `B`를 Union한다면, 위와 같이 Find 할때 걸리는 시간이 트리의 높이에 비례하기 때문에 Union할때는 높이가 작은 트리를 높은 트리에 합칩니다.
+
+```
+                     A
+                     5
+        ┌────────────┼────────────┐
+        8            7            6
+    ┌───┴───┐                ┌────┼────┐
+    2       4                9    1    3
+```
+
+위와 같이 `B`의 부모를 `A`의 부모 노드인 `5`로 지정하면서 높이 값을 유지하며 합쳐줍니다.  
+만약에 두 개의 집합을 합치는데 둘의 높이가 같다면, 합친 후 트리의 높이가 한 단계 높아집니다.
+
+### 구현
+
+```ts
+class ExNode {
+  parent: ExNode
+  value: number
+  rank: number
+
+  constructor(value: number) {
+    this.parent = this
+    this.value = value
+    this.rank = 0
+  }
+}
+
+class ExUnionFind {
+  nodes: Map<number, ExNode> = new Map()
+
+  addNode(value: number) {
+    this.nodes.set(value, new ExNode(value))
+  }
+
+  find(value: number) {
+    const node = this.nodes.get(value)
+    if (!node) return
+    if (node.parent !== node) {
+      node.parent = this.find(node.parent.value)
+    }
+    return node.parent
+  }
+
+  union(a: number, b: number) {
+    const rootA = this.find(a)
+    const rootB = this.find(b)
+    if (rootA === rootB) return
+
+    if (rootA.rank > rootB.rank) {
+      rootB.parent = rootA
+    } else if (rootB.rank > rootA.rank) {
+      rootA.parent = rootB
+    } else {
+      rootB.parent = rootA
+      rootA.rank += 1
+    }
+  }
+}
+```
+
+위 내부의 트리에선 노드의 부모의 경로 보다는 루트 노드가 중요하기 때문에 find 메서드 안에 루트 노드를 찾으면 해당 루트 노드를 부모 노드로 설정해줘서 전체적으로 트리의 높이를 낮게 만들어 성능을 향상 시킬 수 있습니다.
+
+## 동작
+
+```ts
+const unionFind = new ExUnionFind()
+
+unionFind.addNode(1)
+unionFind.addNode(2)
+unionFind.addNode(3)
+unionFind.addNode(4)
+
+unionFind.union(1, 2)
+unionFind.union(2, 3)
+
+console.log(unionFind.find(1)) // 1 - rank 1
+console.log(unionFind.find(2)) // 1 - rank 1
+console.log(unionFind.find(3)) // 1 - rank 1
+console.log(unionFind.find(4)) // 4 - rank 0
+```
+
+[⬆목차](#list)
 
 ## 그래프(Graph)
 
