@@ -2,7 +2,7 @@
 
 기본적인 컴퓨터 공학을 비롯한 IT 기술을 공부하며 정리한 문서입니다.
 
-# Documents
+## Documents
 
 - [0. 자료구조 (in TypeScript)](<docs/0.%20자료구조%20(in%20TypeScript).md>)
 - [1. 알고리즘 패러다임 (in TypeScript)](<docs/1.%20알고리즘%20패러다임%20(in%20TypeScript).md>)
