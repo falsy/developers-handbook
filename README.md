@@ -4,7 +4,9 @@
 
 ## Documents
 
-- [0. 자료구조 (in TypeScript)](<docs/0.%20자료구조%20(in%20TypeScript).md>)
-- [1. 알고리즘 패러다임 (in TypeScript)](<docs/1.%20알고리즘%20패러다임%20(in%20TypeScript).md>)
-- [2. 알고리즘 (in TypeScript)](<docs/2.%20알고리즘%20(in%20TypeScript).md>)
-- [3. 알고리즘 문제풀이 (in JavaScript)](<docs/3.%20알고리즘%20문제풀이%20(in%20JavaScript).md>)
+- [0. 자료구조 (in TypeScript)](<docs/0. 자료구조 (in TypeScript).md>)
+- [1. 알고리즘 패러다임 (in TypeScript)](<docs/1. 알고리즘 패러다임 (in TypeScript).md>)
+- [2. 알고리즘 (in TypeScript)](<docs/2. 알고리즘 (in TypeScript).md>)
+- [3. 알고리즘 문제풀이 (in JavaScript)](<docs/3. 알고리즘 문제풀이 (in JavaScript).md>)
+- [4. 객체 지향 프로그래밍(OOP)](<docs/4. 객체 지향 프로그래밍(OOP).md>)
+- [5. SOLID](<docs/5. SOLID.md>)
