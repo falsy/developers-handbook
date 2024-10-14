@@ -8,7 +8,6 @@
   - [1. 자료구조 (in TypeScript)](<docs/자료구조와 알고리즘/1. 자료구조 (in TypeScript).md>)
   - [2. 알고리즘 패러다임 (in TypeScript)](<docs/자료구조와 알고리즘/2. 알고리즘 패러다임 (in TypeScript).md>)
   - [3. 알고리즘 (in TypeScript)](<docs/자료구조와 알고리즘/3. 알고리즘 (in TypeScript).md>)
-  - [4. 알고리즘 문제풀이 (in JavaScript)](<docs/자료구조와 알고리즘/4. 알고리즘 문제풀이 (in JavaScript).md>)
 - 객체 지향 프로그래밍
   - [1. 객체 지향 프로그래밍과 SOLID](<docs/객체 지향 프로그래밍/1. 객체 지향 프로그래밍과 SOLID.md>)
   - [2. 디자인 패턴 (in TypeScript)](<docs/객체 지향 프로그래밍/2. 디자인 패턴 (in TypeScript).md>)
