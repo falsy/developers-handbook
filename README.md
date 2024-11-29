@@ -14,3 +14,5 @@
 - 네트워크
   - [1. OSI 참조 모델](<docs/네트워크/1. OSI 참조 모델.md>)
   - [2. HTTP](<docs/네트워크/2. HTTP.md>)
+- 프로그래밍 언어
+  - [1. JavaScript](<docs/프로그래밍 언어/1. JavaScript.md>)
