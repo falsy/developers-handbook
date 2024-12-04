@@ -17,4 +17,4 @@
   - [1. 객체 지향 프로그래밍과 SOLID](<docs/객체 지향 프로그래밍/1. 객체 지향 프로그래밍과 SOLID.md>)
   - [2. 디자인 패턴 (in TypeScript)](<docs/객체 지향 프로그래밍/2. 디자인 패턴 (in TypeScript).md>)
 - 프로그래밍 언어
-  - [1. JavaScript](<docs/프로그래밍 언어/1. JavaScript.md>)
+  - [1. 자바스크립트](<docs/프로그래밍 언어/1. 자바스크립트.md>)
