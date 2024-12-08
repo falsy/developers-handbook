@@ -8,8 +8,9 @@
   - [1. 자료구조 (in TypeScript)](<docs/자료구조와 알고리즘/1. 자료구조 (in TypeScript).md>)
   - [2. 알고리즘 패러다임 (in TypeScript)](<docs/자료구조와 알고리즘/2. 알고리즘 패러다임 (in TypeScript).md>)
   - [3. 알고리즘 (in TypeScript)](<docs/자료구조와 알고리즘/3. 알고리즘 (in TypeScript).md>)
-- 운영체제
-  - [1. 운영체제](<docs/운영체제/1. 운영체제.md>)
+- 컴퓨터 구조와 운영체제
+  - [1. 컴퓨터 구조](<docs/컴퓨터 구조와 운영체제/1. 컴퓨터 구조.md>)
+  - [2. 운영체제](<docs/컴퓨터 구조와 운영체제/2. 운영체제.md>)
 - 네트워크
   - [1. OSI 참조 모델](<docs/네트워크/1. OSI 참조 모델.md>)
   - [2. HTTP](<docs/네트워크/2. HTTP.md>)
