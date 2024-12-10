@@ -17,6 +17,7 @@
 - 네트워크
   - [1. OSI 참조 모델](<docs/네트워크/1. OSI 참조 모델.md>)
   - [2. HTTP](<docs/네트워크/2. HTTP.md>)
+  - [3. REST API](<docs/네트워크/3. REST API.md>)
 - 데이터베이스
   - [1. SQL](<docs/데이터베이스/1. SQL.md>)
 - 객체 지향 프로그래밍
