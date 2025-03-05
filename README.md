@@ -25,3 +25,4 @@
   - [2. 디자인 패턴 (in TypeScript)](<docs/객체 지향 프로그래밍/2. 디자인 패턴 (in TypeScript).md>)
 - 프로그래밍 언어
   - [1. 자바스크립트](<docs/프로그래밍 언어/1. 자바스크립트.md>)
+  - [2. ECMAScript](<docs/프로그래밍 언어/2. ECMAScript.md>)
